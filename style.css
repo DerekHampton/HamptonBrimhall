@@ -1,0 +1,41 @@
+div {
+    height: 200px;
+    width: 200px;
+    border: 5px groove red;
+    border-radius: 5%;
+    margin: 10px;
+    font-size: 2em;
+}
+div:hover {
+    background-color: pink;
+}
+  @media only screen and (max-width: 1200px) {
+    body {
+      background-color: rgb(71, 185, 39);
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    body {
+      background-color: rgb(99, 30, 131);
+    }
+    div {
+        height: 150px;
+        width: 150px;
+        border: 5px groove rgb(0, 0, 0);
+        border-radius: 5%;
+        margin: 10px;
+    }
+  }
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    div {
+        height: 100px;
+        width: 100px;
+        border: 5px groove red;
+        border-radius: 5%;
+        margin: 5px;
+    }
+  }
